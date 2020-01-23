@@ -1,0 +1,41 @@
+.news {
+  background-image: url(../img/bg2.jpg);
+  background-size: cover;
+}
+.news .title {
+  color: white;
+}
+.news__img {
+  width: 100%;
+}
+.news__img img {
+  width: 100%;
+}
+
+.news-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-item {
+  width: 30.5%;
+  background-color: white;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.16);
+}
+
+.news__content {
+  padding: 20px;
+}
+.news__content__day {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.news__content__title {
+  font-weight: bold;
+}
+.news__content__intro {
+  font-size: 1.2rem;
+  margin-top: 1em;
+}
+
+/*# sourceMappingURL=news.css.map */
